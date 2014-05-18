@@ -9,10 +9,10 @@
             //form validation rules
             $("#register-form").validate({
                 rules: {
-                    firstName: "required",
+                    firstName: "required"
                 },
                 messages: {
-                    firstName: "First name is required",
+                    firstName: "First name is required"
                 },
                 submitHandler: function(form) {
                     form.submit();

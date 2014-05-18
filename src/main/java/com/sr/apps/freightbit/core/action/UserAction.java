@@ -92,7 +92,6 @@ public class UserAction extends ActionSupport implements Preparable {
     	return SUCCESS;
     }
 
-    @Override
     public void prepare(){
     	userTypeList = parameterService.getParameterMap(ParameterConstants.USER_TYPE);
     	statusList = parameterService.getParameterMap(ParameterConstants.STATUS);

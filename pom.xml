@@ -137,6 +137,11 @@
             <artifactId>jquery</artifactId>
             <version>2.1.0-2</version>
         </dependency>
+        <dependency>
+            <groupId>com.sr.biz</groupId>
+            <artifactId>freightbit-lib</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 
